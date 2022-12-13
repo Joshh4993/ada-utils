@@ -1,0 +1,17 @@
+sort.adb:43:04: error: missing "return" statement in function body
+sort.adb:46:31: error: invalid use of subtype mark in expression or call
+sort.adb:50:19: error: invalid use of subtype mark in expression or call
+sort.adb:51:07: error: no candidate interpretations match the actuals:
+sort.adb:51:07: error: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:457
+sort.adb:51:07: error: missing argument for parameter "Item" in call to "Put" declared at a-textio.ads:384
+sort.adb:51:12: error: expected type "Standard.String"
+sort.adb:51:12: error: found type "MergeList" defined at sort.ads:3
+sort.adb:51:12: error:   ==> in call to "Put" at a-textio.ads:463
+sort.adb:51:12: error:   ==> in call to "Put" at a-textio.ads:390
+sort.adb:55:17: error: "r" is undefined
+sort.adb:60:13: error: cannot use call to function "Merge" as a statement
+sort.adb:60:13: error: return value of a function call cannot be ignored
+sort.adb:61:13: error: cannot use call to function "Merge" as a statement
+sort.adb:61:13: error: return value of a function call cannot be ignored
+sort.adb:62:13: error: cannot use call to function "EndMerge" as a statement
+sort.adb:62:13: error: return value of a function call cannot be ignored

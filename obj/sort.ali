@@ -1,0 +1,82 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U sort%b		sort.adb		0bd34415 NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+
+U sort%s		sort.ads		98bcf116 EE NE OO PK IL
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D sort.ads		20221213110340 98bcf116 sort%s
+D sort.adb		20221213111316 3d9b606e sort%b
+D system.ads		20210520051136 2ffa5114 system%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-imagei.ads		20210520051134 0d3f86a7 system.image_i%s
+D s-imgint.ads		20210520051134 bdb6f5ec system.img_int%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+G a e
+G c Z s b [bubble sort 3 13 none]
+G c Z s b [insertion sort 4 13 none]
+G c Z s b [print_list sort 5 14 none]
+G c Z s s [TlistBIP sort 2 4 none]
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r23
+X 9 a-textio.ads
+58K13*Text_IO 725e16 14|1w10 1r27
+262U14*New_Line 14|50s7
+463U14*Put 14|48s10
+X 13 sort.ads
+1K9*sort 6l5 6e9 14|3b14 52l5 52t9
+2A9*List(integer)<integer> 3r31 3r44 4r34 4r47 5r33 14|4r32 4r45 28r35 28r48
+. 45r33
+3V13*Bubble{2A9} 3=20 14|4b13 26l8 26t14
+3a20 L{2A9} 14|4b21 6r16 11r31 12r19 12r27 14r36 15r36 17m22 18m22 25r14
+4V13*Insertion{2A9} 4=23 14|28b13 43l8 43t17
+4a23 L{2A9} 14|28b24 30r16 32r29 35r41 36m16 36r27 39m13 42r14
+5U14*Print_List 5>26 14|45b14 51l8 51t18
+5a26 L{2A9} 14|45b26 47r16 48r30
+X 14 sort.adb
+6i11 I{integer} 11r42
+8i13 J{integer} 11r26 12r22 12r30 14r39 15r39 17r25 18r25 21m16 21r21
+14i22 X{integer} 18r33
+15i22 Y{integer} 17r31
+30i11 I{integer} 32r32 33r27
+32i13 key{integer} 35r35 39r24
+33i13 j{integer} 35r19 35r44 36r19 36r30 37m16 37r21 39r16
+47i11 I{integer} 48r33
+
